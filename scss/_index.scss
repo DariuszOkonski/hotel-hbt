@@ -59,3 +59,28 @@
     }
   }
 }
+
+// HomeInfo
+#home-info {
+  height: 400px;
+
+  .info-img {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    background-image: url('../img/photo-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .info-content {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+  }
+
+}
