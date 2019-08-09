@@ -9,7 +9,9 @@
 }
 
 .container {
-  max-width: 1184px;
+  max-width: 1100px;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+  overflow: auto;
+  padding: 0 20px;
 }
