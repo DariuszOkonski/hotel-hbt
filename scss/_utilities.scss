@@ -1,11 +1,15 @@
 // Utility classes
 
 .clearfix::after {
-  content: 'aaa';
+  content: '';
   display: block;
   height: 0;
   width: 100%;
   clear: both;
+}
+
+.text-primary {
+  color: #f7c08a;
 }
 
 .container {
