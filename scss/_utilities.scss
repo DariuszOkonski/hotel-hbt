@@ -29,7 +29,14 @@
     background: #f7c08a;
     color: #333;
   }
+
+  &-light {
+    background: #ccc;
+    color: #333;
+  }
 }
+
+.bg-dark {}
 
 .container {
   max-width: 1100px;
