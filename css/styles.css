@@ -25,4 +25,46 @@ h3 {
 p {
   margin: 10px 0;
 }
+
+.clearfix::after {
+  content: 'aaa';
+  display: block;
+  height: 0;
+  width: 100%;
+  clear: both;
+}
+
+#navbar {
+  background: #333;
+  color: white;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover, #navbar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+#navbar a {
+  color: white;
+}
 /*# sourceMappingURL=styles.css.map */
