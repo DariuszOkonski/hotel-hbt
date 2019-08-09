@@ -38,6 +38,10 @@ p {
   color: #f7c08a;
 }
 
+.lead {
+  font-size: 20px;
+}
+
 .container {
   max-width: 1100px;
   margin-left: auto;
