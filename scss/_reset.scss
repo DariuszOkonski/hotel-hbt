@@ -28,11 +28,3 @@ h3 {
 p {
   margin: 10px 0;
 }
-
-.clearfix::after {
-  content: 'aaa';
-  display: block;
-  height: 0;
-  width: 100%;
-  clear: both;
-}
