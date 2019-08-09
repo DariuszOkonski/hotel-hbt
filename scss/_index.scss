@@ -36,3 +36,21 @@
 }
 
 // Showcase
+#showcase {
+  background-image: url('../img/showcase.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+
+  .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+
+    h1 {
+      font-size: 60px;
+      line-height: 1.2em;
+    }
+  }
+}

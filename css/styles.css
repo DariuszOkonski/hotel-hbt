@@ -27,11 +27,15 @@ p {
 }
 
 .clearfix::after {
-  content: 'aaa';
+  content: '';
   display: block;
   height: 0;
   width: 100%;
   clear: both;
+}
+
+.text-primary {
+  color: #f7c08a;
 }
 
 .container {
@@ -74,5 +78,24 @@ p {
 
 #navbar a {
   color: white;
+}
+
+#showcase {
+  background-image: url("../img/showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
 }
 /*# sourceMappingURL=styles.css.map */
