@@ -5,7 +5,8 @@
         "../scss/styles.scss",
         "../scss/_reset.scss",
         "../scss/_utilities.scss",
-        "../scss/_index.scss"
+        "../scss/_index.scss",
+        "../scss/_about.scss"
     ],
     "names": [],
     "file": "styles.css"
