@@ -258,4 +258,36 @@ p {
   margin-right: 20px;
   border-radius: 50%;
 }
+
+#contact-form h1 {
+  color: red;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+#contact-form .form-group textarea {
+  height: 200px;
+}
 /*# sourceMappingURL=styles.css.map */

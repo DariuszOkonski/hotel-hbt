@@ -1,0 +1,33 @@
+// Contact
+#contact-form {
+  h1 {
+    color: red;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+
+      &:focus {
+        outline: none;
+        border-color: #f7c08a;
+      }
+    }
+
+    textarea {
+      height: 200px;
+    }
+  }
+}
