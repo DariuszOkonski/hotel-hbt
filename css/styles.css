@@ -187,4 +187,11 @@ p {
 .box i {
   margin-bottom: 10px;
 }
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
 /*# sourceMappingURL=styles.css.map */
