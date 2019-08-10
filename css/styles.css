@@ -92,6 +92,22 @@ p {
   overflow: auto;
 }
 
+.py-1 {
+  padding: 10px 0;
+}
+
+.py-2 {
+  padding: 20px 0;
+}
+
+.py-3 {
+  padding: 30px 0;
+}
+
+.l-heading {
+  font-size: 40px;
+}
+
 #navbar {
   background: #333;
   color: white;
@@ -193,5 +209,24 @@ p {
   background: #444;
   color: #fff;
   padding: 20px;
+}
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
